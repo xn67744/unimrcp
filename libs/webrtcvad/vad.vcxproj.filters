@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\complex_bit_reverse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\complex_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\cross_correlation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\division_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\downsample_fast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\energy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\get_scaling_square.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\min_max_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\real_fft.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\resample_48khz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\resample_by_2_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\resample_fractional.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\spl_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\vector_scaling_operations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_filterbank.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_gmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_sp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\webrtc_vad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\typedefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\include\signal_processing_library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\include\spl_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_filterbank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_gmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\vad_sp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\vad\include\webrtc_vad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\system_wrappers\interface\cpu_features_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\complex_fft_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\webrtc\common_audio\signal_processing\resample_by_2_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\codes\workspace-c++\unimrcp\unimrcp-1.8.0\libs\webrtcvad\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4C21AF6D-2480-3CE2-B798-4AD20D77855A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1AF48BEE-4FAE-3318-9A44-276E95E3EA0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

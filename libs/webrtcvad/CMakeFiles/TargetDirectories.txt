@@ -1,0 +1,3 @@
+D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/libs/webrtcvad/CMakeFiles/vad.dir
+D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/libs/webrtcvad/CMakeFiles/ALL_BUILD.dir
+D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/libs/webrtcvad/CMakeFiles/ZERO_CHECK.dir

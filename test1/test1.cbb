@@ -1,0 +1,107 @@
+﻿#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <windows.h>
+#include <libwebsockets.h>
+#include <string.h>
+#include <stdio.h>
+
+static int callback_websockets(struct lws* wsi, enum lws_callback_reasons reason,
+    void* user, void* in, size_t len) {
+
+    // 发送消息示例
+    const char* msg = "Hello, WebSocket!";
+    size_t msg_len = strlen(msg);
+
+    // 计算所需的缓冲区总大小
+    size_t buffer_size = LWS_SEND_BUFFER_PRE_PADDING + msg_len + LWS_SEND_BUFFER_POST_PADDING;
+
+    // 动态分配缓冲区
+    unsigned char* buffer = (unsigned char*)malloc(buffer_size);
+    if (!buffer) {
+        // 处理内存分配失败
+        fprintf(stderr, "Failed to allocate memory\n");
+        return -1;
+    }
+
+    // 准备缓冲区内容
+    memcpy(buffer + LWS_SEND_BUFFER_PRE_PADDING, msg, msg_len);
+
+    switch (reason) {
+    case LWS_CALLBACK_CLIENT_ESTABLISHED:
+        printf("Connection established\n");
+        // 发送消息
+        lws_write(wsi, buffer + LWS_SEND_BUFFER_PRE_PADDING, msg_len, LWS_WRITE_TEXT);
+
+        // 释放缓冲区内存
+        free(buffer);
+        break;
+
+    case LWS_CALLBACK_CLIENT_RECEIVE:
+        // 接收消息
+        printf("Received data: %s\n", (char*)in);
+        break;
+
+    case LWS_CALLBACK_CLIENT_CONNECTION_ERROR:
+        printf("Connection failed\n");
+        break;
+
+    case LWS_CALLBACK_CLIENT_CLOSED:
+        printf("Connection closed\n");
+        break;
+
+    default:
+        break;
+    }
+
+    return 0;
+}
+
+static struct lws_protocols protocols[] = {
+    {
+        "default",  // 协议名称
+        callback_websockets,   // 回调函数
+        0,  // per_session_data_size
+        0,  // max rx buffer
+    },
+    { NULL, NULL, 0, 0 } // 结束标记
+};
+
+int main() {
+    struct lws_context_creation_info info;
+    memset(&info, 0, sizeof(info));
+    info.port = CONTEXT_PORT_NO_LISTEN;
+    info.protocols = protocols;
+    info.gid = -1;
+    info.uid = -1;
+
+    struct lws_context* context = lws_create_context(&info);
+    if (context == NULL) {
+        fprintf(stderr, "lws init failed\n");
+        return -1;
+    }
+
+    // 创建连接
+    struct lws_client_connect_info connect_info = { 0 };
+    connect_info.context = context;
+    connect_info.address = "127.0.0.1";  // WebSocket服务器地址
+    connect_info.port = 8092;                       // 服务器端口
+    connect_info.path = "/websocket/1";                      // 路径
+    connect_info.host = connect_info.address;
+    connect_info.origin = connect_info.address;
+    connect_info.protocol = protocols[0].name;
+    connect_info.ssl_connection = 0;              // 不使用SSL
+
+    struct lws* wsi = lws_client_connect_via_info(&connect_info);
+    if (wsi == NULL) {
+        fprintf(stderr, "Connection failed\n");
+        return -1;
+    }
+
+    // 事件循环
+    while (1) {
+        lws_service(context, 0);
+    }
+
+    lws_context_destroy(context);
+    return 0;
+}

@@ -1,0 +1,78 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/webrtc/depot_tools/ninja.exe cmTC_74777 && [1/2] Building C object CMakeFiles\cmTC_74777.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_74777.exe
+FAILED: cmTC_74777.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_74777.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_74777.dir\testCCompiler.c.obj  /out:cmTC_74777.exe /implib:cmTC_74777.lib /pdb:cmTC_74777.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_74777.dir/manifest.res CMakeFiles\cmTC_74777.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/webrtc/depot_tools/ninja.exe cmTC_d4ee5 && [1/2] Building C object CMakeFiles\cmTC_d4ee5.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_d4ee5.exe
+FAILED: cmTC_d4ee5.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d4ee5.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_d4ee5.dir\testCCompiler.c.obj  /out:cmTC_d4ee5.exe /implib:cmTC_d4ee5.lib /pdb:cmTC_d4ee5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_d4ee5.dir/manifest.res CMakeFiles\cmTC_d4ee5.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/webrtc/depot_tools/ninja.exe cmTC_3821d && [1/2] Building C object CMakeFiles\cmTC_3821d.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_3821d.exe
+FAILED: cmTC_3821d.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3821d.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_3821d.dir\testCCompiler.c.obj  /out:cmTC_3821d.exe /implib:cmTC_3821d.lib /pdb:cmTC_3821d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_3821d.dir/manifest.res CMakeFiles\cmTC_3821d.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/webrtc/depot_tools/ninja.exe cmTC_bb54b && [1/2] Building C object CMakeFiles\cmTC_bb54b.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_bb54b.exe
+FAILED: cmTC_bb54b.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_bb54b.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_bb54b.dir\testCCompiler.c.obj  /out:cmTC_bb54b.exe /implib:cmTC_bb54b.lib /pdb:cmTC_bb54b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_bb54b.dir/manifest.res CMakeFiles\cmTC_bb54b.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/webrtc/depot_tools/ninja.exe cmTC_f63da && [1/2] Building C object CMakeFiles\cmTC_f63da.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_f63da.exe
+FAILED: cmTC_f63da.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f63da.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_f63da.dir\testCCompiler.c.obj  /out:cmTC_f63da.exe /implib:cmTC_f63da.lib /pdb:cmTC_f63da.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_f63da.dir/manifest.res CMakeFiles\cmTC_f63da.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/codes/workspace-c++/unimrcp/unimrcp-1.8.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/webrtc/depot_tools/ninja.exe cmTC_b2f78 && [1/2] Building C object CMakeFiles\cmTC_b2f78.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_b2f78.exe
+FAILED: cmTC_b2f78.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b2f78.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\link.exe" /nologo CMakeFiles\cmTC_b2f78.dir\testCCompiler.c.obj  /out:cmTC_b2f78.exe /implib:cmTC_b2f78.lib /pdb:cmTC_b2f78.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_b2f78.dir/manifest.res CMakeFiles\cmTC_b2f78.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。
+ninja: build stopped: subcommand failed.
+
+
+

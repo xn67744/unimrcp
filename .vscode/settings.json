@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "apr_portable.h": "c",
+        "apr_hash.h": "c",
+        "mrcp_resource_factory.h": "c"
+    }
+}

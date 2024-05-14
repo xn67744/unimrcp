@@ -1,0 +1,7 @@
+INTRODUCTION
+============
+
+基于unimrcp1.6版本上增加了对funasr的对接插件和相关的依赖包，包括unimrcp1.6的依赖包，都在lib文件下
+使用webrtc的vad进行替换
+
+
